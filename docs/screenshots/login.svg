@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Inter,system-ui,sans-serif">
+  <rect width="1200" height="700" fill="#0f1117"/>
+  
+  <!-- Center card -->
+  <rect x="450" y="150" width="300" height="400" rx="16" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  
+  <!-- Logo -->
+  <rect x="576" y="176" width="48" height="48" rx="12" fill="#0ea5e9" fill-opacity="0.1" stroke="#0ea5e9" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="600" y="208" fill="#0ea5e9" font-size="24" font-weight="700" text-anchor="middle">G</text>
+  
+  <text x="600" y="250" fill="#f1f5f9" font-size="16" font-weight="700" text-anchor="middle">Welcome to gxq.studio</text>
+  <text x="600" y="270" fill="#64748b" font-size="12" text-anchor="middle">Sign in to access your dashboard</text>
+  
+  <!-- Email field -->
+  <rect x="472" y="296" width="256" height="38" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="490" y="319" fill="#4b5563" font-size="12">✉  Email address</text>
+  
+  <!-- Password field -->
+  <rect x="472" y="344" width="256" height="38" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="490" y="367" fill="#4b5563" font-size="12">🔒  Password</text>
+  
+  <!-- Sign in button -->
+  <rect x="472" y="396" width="256" height="40" rx="8" fill="#0ea5e9"/>
+  <text x="600" y="420" fill="white" font-size="13" font-weight="600" text-anchor="middle">Sign In →</text>
+  
+  <!-- Demo hint -->
+  <text x="600" y="455" fill="#4b5563" font-size="10" text-anchor="middle">Demo: admin@ / dev@ / user@gxq.studio</text>
+  
+  <!-- Divider -->
+  <line x1="472" y1="470" x2="590" y2="470" stroke="#252d3d" stroke-width="1"/>
+  <text x="600" y="474" fill="#4b5563" font-size="10" text-anchor="middle">or</text>
+  <line x1="610" y1="470" x2="728" y2="470" stroke="#252d3d" stroke-width="1"/>
+  
+  <!-- Wallet button -->
+  <rect x="472" y="484" width="256" height="40" rx="8" fill="none" stroke="#252d3d" stroke-width="1.5"/>
+  <text x="600" y="508" fill="#94a3b8" font-size="13" font-weight="500" text-anchor="middle">🔗 Connect Wallet</text>
+</svg>

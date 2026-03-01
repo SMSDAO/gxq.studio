@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Inter,system-ui,sans-serif">
+  <rect width="1200" height="700" fill="#0f1117"/>
+  
+  <!-- Sidebar -->
+  <rect width="224" height="700" fill="#0f1117" stroke="#252d3d" stroke-width="1"/>
+  <text x="16" y="36" fill="#0ea5e9" font-size="20" font-weight="700">G</text>
+  <text x="36" y="36" fill="#f1f5f9" font-size="14" font-weight="700">gxq</text>
+  <text x="62" y="36" fill="#0ea5e9" font-size="14" font-weight="700">.studio</text>
+  <rect x="0" y="56" width="224" height="1" fill="#252d3d"/>
+  <text x="16" y="82" fill="#4b5563" font-size="9" font-weight="700" letter-spacing="1.5">USER</text>
+  <rect x="8" y="90" width="208" height="32" rx="8" fill="#0ea5e9" fill-opacity="0.15"/>
+  <text x="28" y="110" fill="#0ea5e9" font-size="12" font-weight="600">⊞  Dashboard</text>
+  <text x="28" y="138" fill="#64748b" font-size="12">⇄  Swap</text>
+  <text x="28" y="166" fill="#64748b" font-size="12">⚡  Flash Loans</text>
+  <text x="28" y="194" fill="#64748b" font-size="12">&lt;/&gt; Contracts</text>
+  <text x="28" y="222" fill="#64748b" font-size="12">🏪  Templates</text>
+  <text x="28" y="250" fill="#64748b" font-size="12">👤  Profile</text>
+
+  <!-- Header -->
+  <rect x="224" y="0" width="976" height="56" fill="#0f1117" stroke="#252d3d" stroke-width="0.5"/>
+  <text x="248" y="34" fill="#f1f5f9" font-size="13" font-weight="600">User Dashboard</text>
+
+  <!-- Main content -->
+  <text x="248" y="100" fill="#f1f5f9" font-size="18" font-weight="700">Welcome back, Alex 👋</text>
+  <text x="248" y="122" fill="#64748b" font-size="12">Here's your portfolio overview</text>
+
+  <!-- Stats -->
+  <rect x="248" y="140" width="215" height="90" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="268" y="168" fill="#94a3b8" font-size="9" letter-spacing="1" font-weight="700">PORTFOLIO VALUE</text>
+  <text x="268" y="196" fill="#f1f5f9" font-size="22" font-weight="700">$24,350</text>
+  <text x="268" y="216" fill="#10b981" font-size="10">↑ +9.3% 7d</text>
+
+  <rect x="477" y="140" width="215" height="90" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="497" y="168" fill="#94a3b8" font-size="9" letter-spacing="1" font-weight="700">TOTAL SWAPS</text>
+  <text x="497" y="196" fill="#f1f5f9" font-size="22" font-weight="700">142</text>
+  <text x="497" y="216" fill="#10b981" font-size="10">↑ +5.2% 30d</text>
+
+  <rect x="706" y="140" width="215" height="90" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="726" y="168" fill="#94a3b8" font-size="9" letter-spacing="1" font-weight="700">FLASH LOANS</text>
+  <text x="726" y="196" fill="#f1f5f9" font-size="22" font-weight="700">18</text>
+  <text x="726" y="216" fill="#10b981" font-size="10">↑ +28.5% 30d</text>
+
+  <rect x="935" y="140" width="265" height="90" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="955" y="168" fill="#94a3b8" font-size="9" letter-spacing="1" font-weight="700">CONTRACTS BUILT</text>
+  <text x="955" y="196" fill="#f1f5f9" font-size="22" font-weight="700">7</text>
+  <text x="955" y="216" fill="#94a3b8" font-size="10">— 0% 30d</text>
+
+  <!-- Portfolio chart -->
+  <rect x="248" y="250" width="600" height="180" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="268" y="278" fill="#f1f5f9" font-size="13" font-weight="600">Portfolio Value (7d)</text>
+  <rect x="660" y="264" width="50" height="18" rx="9" fill="#10b981" fill-opacity="0.2"/>
+  <text x="672" y="276" fill="#10b981" font-size="10">+9.3%</text>
+  <text x="268" y="302" fill="#f1f5f9" font-size="20" font-weight="700">$24,350</text>
+  <polyline points="280,390 360,375 440,385 520,360 600,350 680,340 760,330" fill="none" stroke="#10b981" stroke-width="2.5"/>
+  <path d="M280,390 L360,375 L440,385 L520,360 L600,350 L680,340 L760,330 L760,410 L280,410 Z" fill="#10b981" fill-opacity="0.1"/>
+
+  <!-- Quick actions -->
+  <rect x="864" y="250" width="336" height="180" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="884" y="278" fill="#f1f5f9" font-size="13" font-weight="600">Quick Actions</text>
+  <rect x="884" y="292" width="296" height="34" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="904" y="313" fill="#94a3b8" font-size="12">⇄  Swap Tokens</text>
+  <rect x="884" y="334" width="296" height="34" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="904" y="355" fill="#94a3b8" font-size="12">⚡  Flash Loan</text>
+  <rect x="884" y="376" width="296" height="34" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="904" y="397" fill="#94a3b8" font-size="12">&lt;/&gt; Build Contract</text>
+
+  <!-- Transactions -->
+  <rect x="248" y="450" width="590" height="220" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="268" y="478" fill="#f1f5f9" font-size="13" font-weight="600">Recent Transactions</text>
+  <rect x="248" y="490" width="590" height="1" fill="#252d3d"/>
+  
+  <text x="300" y="522" fill="#e2e8f0" font-size="12">ETH → USDC</text>
+  <text x="300" y="538" fill="#64748b" font-size="10">30m ago</text>
+  <text x="720" y="528" fill="#f1f5f9" font-size="12" text-anchor="end">$2,150.50</text>
+  <rect x="728" y="516" width="50" height="18" rx="9" fill="#064e3b" fill-opacity="0.5"/>
+  <text x="740" y="528" fill="#10b981" font-size="10">success</text>
+
+  <rect x="248" y="550" width="590" height="1" fill="#252d3d" opacity="0.4"/>
+  <text x="300" y="582" fill="#e2e8f0" font-size="12">Flash Loan 50 ETH</text>
+  <text x="300" y="598" fill="#64748b" font-size="10">2h ago</text>
+  <text x="720" y="588" fill="#f1f5f9" font-size="12" text-anchor="end">$85,000</text>
+
+  <!-- Templates -->
+  <rect x="854" y="450" width="346" height="220" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="874" y="478" fill="#f1f5f9" font-size="13" font-weight="600">Featured Templates</text>
+  <rect x="874" y="494" width="306" height="52" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="890" y="516" fill="#f1f5f9" font-size="12" font-weight="500">Flash Arb Bot</text>
+  <text x="890" y="534" fill="#64748b" font-size="10">⭐ 234 · ↓ 1820</text>
+  <rect x="874" y="554" width="306" height="52" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="890" y="576" fill="#f1f5f9" font-size="12" font-weight="500">Yield Optimizer</text>
+  <text x="890" y="594" fill="#64748b" font-size="10">⭐ 189 · ↓ 945</text>
+</svg>

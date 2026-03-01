@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Inter,system-ui,sans-serif">
+  <rect width="1200" height="700" fill="#0f1117"/>
+  
+  <!-- Sidebar -->
+  <rect width="224" height="700" fill="#0f1117" stroke="#252d3d" stroke-width="1"/>
+  <text x="16" y="36" fill="#0ea5e9" font-size="14" font-weight="700">gxq.studio</text>
+  <rect x="0" y="56" width="224" height="1" fill="#252d3d"/>
+  <text x="16" y="82" fill="#4b5563" font-size="9" font-weight="700" letter-spacing="1.5">DEVELOPER</text>
+  <rect x="8" y="90" width="208" height="32" rx="8" fill="#0ea5e9" fill-opacity="0.15"/>
+  <text x="28" y="110" fill="#0ea5e9" font-size="12" font-weight="600">⚙  Dev Dashboard</text>
+  <text x="28" y="138" fill="#64748b" font-size="12">🌐  API Explorer</text>
+  <text x="28" y="166" fill="#64748b" font-size="12">🔗  Webhooks</text>
+  <text x="28" y="194" fill="#64748b" font-size="12">🚀  Deployments</text>
+  <text x="28" y="222" fill="#64748b" font-size="12">📜  Logs</text>
+
+  <!-- Header -->
+  <rect x="224" y="0" width="976" height="56" fill="#0f1117" stroke="#252d3d" stroke-width="0.5"/>
+
+  <!-- Main -->
+  <text x="248" y="100" fill="#f1f5f9" font-size="18" font-weight="700">Developer Dashboard</text>
+  <text x="248" y="122" fill="#64748b" font-size="12">Monitor APIs, webhooks, and deployments</text>
+
+  <!-- Stats -->
+  <rect x="248" y="140" width="215" height="90" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="268" y="168" fill="#94a3b8" font-size="9" letter-spacing="1" font-weight="700">API CALLS (24H)</text>
+  <text x="268" y="196" fill="#f1f5f9" font-size="22" font-weight="700">118.5K</text>
+  <text x="268" y="216" fill="#10b981" font-size="10">↑ +12.3% 24h</text>
+
+  <rect x="477" y="140" width="215" height="90" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="497" y="168" fill="#94a3b8" font-size="9" letter-spacing="1" font-weight="700">ACTIVE WEBHOOKS</text>
+  <text x="497" y="196" fill="#f1f5f9" font-size="22" font-weight="700">23</text>
+  <text x="497" y="216" fill="#10b981" font-size="10">↑ +4.3% 7d</text>
+
+  <rect x="706" y="140" width="215" height="90" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="726" y="168" fill="#94a3b8" font-size="9" letter-spacing="1" font-weight="700">DEPLOYMENTS (7D)</text>
+  <text x="726" y="196" fill="#f1f5f9" font-size="22" font-weight="700">18</text>
+  <text x="726" y="216" fill="#ef4444" font-size="10">↓ -5% 7d</text>
+
+  <rect x="935" y="140" width="265" height="90" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="955" y="168" fill="#94a3b8" font-size="9" letter-spacing="1" font-weight="700">ERROR RATE</text>
+  <text x="955" y="196" fill="#f1f5f9" font-size="22" font-weight="700">0.12%</text>
+  <text x="955" y="216" fill="#10b981" font-size="10">↓ -2.1% 24h</text>
+
+  <!-- API chart -->
+  <rect x="248" y="250" width="600" height="180" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="268" y="278" fill="#f1f5f9" font-size="13" font-weight="600">API Calls (7d)</text>
+  <polyline points="280,395 360,370 440,382 520,345 600,330 680,342 760,328" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+  <path d="M280,395 L360,370 L440,382 L520,345 L600,330 L680,342 L760,328 L760,410 L280,410 Z" fill="#0ea5e9" fill-opacity="0.1"/>
+  <text x="280" y="425" fill="#4b5563" font-size="10">Mon</text>
+  <text x="360" y="425" fill="#4b5563" font-size="10">Tue</text>
+  <text x="440" y="425" fill="#4b5563" font-size="10">Wed</text>
+  <text x="520" y="425" fill="#4b5563" font-size="10">Thu</text>
+  <text x="600" y="425" fill="#4b5563" font-size="10">Fri</text>
+  <text x="680" y="425" fill="#4b5563" font-size="10">Sat</text>
+  <text x="760" y="425" fill="#4b5563" font-size="10">Sun</text>
+
+  <!-- Quick links -->
+  <rect x="864" y="250" width="336" height="180" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="884" y="278" fill="#f1f5f9" font-size="13" font-weight="600">Quick Links</text>
+  <rect x="884" y="292" width="296" height="34" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="904" y="313" fill="#94a3b8" font-size="12">🌐  API Explorer</text>
+  <rect x="884" y="334" width="296" height="34" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="904" y="355" fill="#94a3b8" font-size="12">🔗  Webhooks</text>
+  <rect x="884" y="376" width="296" height="34" rx="8" fill="#1e2535" stroke="#252d3d" stroke-width="1"/>
+  <text x="904" y="397" fill="#94a3b8" font-size="12">🚀  Deployments</text>
+
+  <!-- Deployments -->
+  <rect x="248" y="450" width="952" height="220" rx="10" fill="#161b27" stroke="#252d3d" stroke-width="1"/>
+  <text x="268" y="478" fill="#f1f5f9" font-size="13" font-weight="600">Recent Deployments</text>
+  <rect x="248" y="490" width="952" height="1" fill="#252d3d"/>
+
+  <circle cx="268" cy="520" r="5" fill="#10b981"/>
+  <text x="284" y="522" fill="#e2e8f0" font-size="12">api-gateway</text>
+  <text x="284" y="538" fill="#64748b" font-size="10">v2.4.1 · 2h ago</text>
+  <rect x="880" y="510" width="72" height="18" rx="9" fill="#0ea5e9" fill-opacity="0.2"/>
+  <text x="892" y="522" fill="#38bdf8" font-size="10">production</text>
+  <rect x="960" y="510" width="56" height="18" rx="9" fill="#064e3b" fill-opacity="0.5"/>
+  <text x="972" y="522" fill="#10b981" font-size="10">running</text>
+
+  <rect x="248" y="548" width="952" height="1" fill="#252d3d" opacity="0.4"/>
+  <circle cx="268" cy="570" r="5" fill="#10b981"/>
+  <text x="284" y="572" fill="#e2e8f0" font-size="12">swap-router</text>
+  <text x="284" y="588" fill="#64748b" font-size="10">v1.8.0 · 5h ago</text>
+
+  <rect x="248" y="600" width="952" height="1" fill="#252d3d" opacity="0.4"/>
+  <circle cx="268" cy="622" r="5" fill="#0ea5e9" opacity="0.8"/>
+  <text x="284" y="624" fill="#e2e8f0" font-size="12">flash-loan-executor</text>
+  <text x="284" y="640" fill="#64748b" font-size="10">v0.9.3 · 12m ago</text>
+  <rect x="960" y="612" width="66" height="18" rx="9" fill="#1e3a5f" fill-opacity="0.5"/>
+  <text x="972" y="624" fill="#38bdf8" font-size="10">deploying</text>
+</svg>
