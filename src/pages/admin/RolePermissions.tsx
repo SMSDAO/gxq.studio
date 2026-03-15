@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { Shield, Eye, Pencil, Trash2, Plus } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -11,7 +12,7 @@ const roleInfo: Record<Role, { color: 'brand' | 'info' | 'success'; desc: string
   user: { color: 'success', desc: 'Standard access to swap, flash loans, contract builder, and templates.' },
 }
 
-const actionIcons: Record<string, React.ReactNode> = {
+const actionIcons: Record<string, ReactNode> = {
   read: <Eye size={11} />,
   write: <Pencil size={11} />,
   delete: <Trash2 size={11} />,

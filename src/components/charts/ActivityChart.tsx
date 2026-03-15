@@ -18,7 +18,8 @@ export function ActivityChart({ data, color = '#0ea5e9', height = 80 }: Activity
   const padY = 8
   const chartH = height - padY * 2
   const chartW = width - padX * 2
-  const step = chartW / (data.length - 1)
+  // Guard against divide-by-zero when there is only one data point
+  const step = data.length > 1 ? chartW / (data.length - 1) : chartW
 
   const points = data.map((d, i) => {
     const x = padX + i * step

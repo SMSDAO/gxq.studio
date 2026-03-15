@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { TrendingUp, TrendingDown } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -6,7 +7,7 @@ interface StatsCardProps {
   value: string | number
   change?: number
   changeLabel?: string
-  icon?: React.ReactNode
+  icon?: ReactNode
   color?: string
 }
 

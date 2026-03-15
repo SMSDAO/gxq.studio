@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { Shield, User, Settings, KeyRound, Activity, Download } from 'lucide-react'
 import { Card } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -14,7 +15,7 @@ const AUDIT_EVENTS = [
   { id: '7', actor: 'admin@gxq.studio', action: 'User deleted', resource: 'users', severity: 'danger', timestamp: new Date(Date.now() - 86400000).toISOString() },
 ]
 
-const resourceIcons: Record<string, React.ReactNode> = {
+const resourceIcons: Record<string, ReactNode> = {
   users: <User size={13} />,
   roles: <KeyRound size={13} />,
   settings: <Settings size={13} />,
