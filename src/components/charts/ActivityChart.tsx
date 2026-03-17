@@ -12,7 +12,8 @@ interface ActivityChartProps {
 export function ActivityChart({ data, color = '#0ea5e9', height = 80 }: ActivityChartProps) {
   if (data.length === 0) return null
 
-  const max = Math.max(...data.map(d => d.value))
+  // Guard against max === 0 (all-zero data) to avoid NaN from division
+  const max = Math.max(...data.map(d => d.value)) || 1
   const width = 500
   const padX = 8
   const padY = 8
