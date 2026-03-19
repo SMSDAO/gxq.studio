@@ -4,10 +4,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 
-const ENDPOINTS = [
+type BadgeVariant = 'default' | 'success' | 'warning' | 'danger' | 'info' | 'brand'
+
+const ENDPOINTS: Array<{ group: string; color: BadgeVariant; items: Array<{ method: string; path: string; desc: string; params: string }> }> = [
   {
     group: 'Swap',
-    color: 'emerald',
+    color: 'success',
     items: [
       { method: 'GET', path: '/api/v1/swap/quote', desc: 'Get best swap quote across providers', params: '?tokenIn=ETH&tokenOut=USDC&amount=1' },
       { method: 'POST', path: '/api/v1/swap/execute', desc: 'Execute a swap transaction', params: '' },
@@ -15,7 +17,7 @@ const ENDPOINTS = [
   },
   {
     group: 'Flash Loans',
-    color: 'amber',
+    color: 'warning',
     items: [
       { method: 'GET', path: '/api/v1/flash-loans/providers', desc: 'List available flash loan providers', params: '' },
       { method: 'POST', path: '/api/v1/flash-loans/execute', desc: 'Execute a flash loan', params: '' },
@@ -66,7 +68,7 @@ export function APIExplorer() {
             <Card key={group.group}>
               <CardHeader>
                 <CardTitle>{group.group}</CardTitle>
-                <Badge variant={group.color as 'brand' | 'info' | 'success' | 'warning'}>{group.items.length} endpoints</Badge>
+                <Badge variant={group.color}>{group.items.length} endpoints</Badge>
               </CardHeader>
               <div className="divide-y divide-surface-600/30">
                 {group.items.map(ep => {

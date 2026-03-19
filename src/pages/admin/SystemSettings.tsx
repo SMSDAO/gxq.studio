@@ -20,11 +20,11 @@ export function SystemSettings() {
     alert('Settings saved (demo only)')
   }
 
-  const toggle = (key: keyof typeof settings) => {
+  const toggle = (key: 'enableRegistrations' | 'enableWalletAuth' | 'enableDevAccess' | 'maintenanceMode') => {
     setSettings(prev => ({ ...prev, [key]: !prev[key] }))
   }
 
-  const boolKeys: (keyof typeof settings)[] = ['enableRegistrations', 'enableWalletAuth', 'enableDevAccess', 'maintenanceMode']
+  const boolKeys: ('enableRegistrations' | 'enableWalletAuth' | 'enableDevAccess' | 'maintenanceMode')[] = ['enableRegistrations', 'enableWalletAuth', 'enableDevAccess', 'maintenanceMode']
   const boolLabels: Record<string, string> = {
     enableRegistrations: 'Allow new registrations',
     enableWalletAuth: 'Enable wallet authentication',

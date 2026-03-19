@@ -132,7 +132,7 @@ export function Landing() {
             <a href="https://github.com/SMSDAO/gxq.studio" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
               <Github size={16} />
             </a>
-            <a href="#" className="hover:text-gray-300 transition-colors">
+            <a href="https://twitter.com/gxqstudio" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
               <Twitter size={16} />
             </a>
           </div>

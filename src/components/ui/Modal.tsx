@@ -21,6 +21,10 @@ export function Modal({ open, onClose, title, children, size = 'md' }: ModalProp
   const titleId = useId()
   const dialogRef = useRef<HTMLDivElement>(null)
   const triggerRef = useRef<Element | null>(null)
+  // Keep a stable ref to onClose so the effect never needs to re-run due to
+  // inline callbacks changing identity on every parent render.
+  const onCloseRef = useRef(onClose)
+  useEffect(() => { onCloseRef.current = onClose })
 
   const FOCUSABLE =
     'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])'
@@ -34,7 +38,7 @@ export function Modal({ open, onClose, title, children, size = 'md' }: ModalProp
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
-        onClose()
+        onCloseRef.current()
         return
       }
       if (e.key !== 'Tab') return
@@ -78,7 +82,7 @@ export function Modal({ open, onClose, title, children, size = 'md' }: ModalProp
         triggerRef.current.focus()
       }
     }
-  }, [open, onClose])
+  }, [open])
 
   if (!open) return null
 
