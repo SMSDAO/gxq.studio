@@ -158,7 +158,6 @@ gxq.studio/
     │   │   └── Table.tsx
     │   ├── layout/
     │   │   ├── DashboardLayout.tsx
-    │   │   ├── AdminLayout.tsx
     │   │   └── PublicLayout.tsx
     │   ├── auth/
     │   │   ├── LoginForm.tsx

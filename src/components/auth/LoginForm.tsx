@@ -21,7 +21,7 @@ export function LoginForm() {
       await signIn(email, password)
       navigate('/dashboard')
     } catch (err) {
-      setError('Invalid credentials. Try admin@, dev@, or user@ with any password.')
+      setError('Invalid credentials. Try admin@gxq.studio, dev@gxq.studio, or user@gxq.studio with any password.')
     } finally {
       setLoading(false)
     }
@@ -52,7 +52,7 @@ export function LoginForm() {
         Sign In
       </Button>
       <p className="text-xs text-center text-gray-500">
-        Demo: use <span className="text-brand-400">admin@</span>, <span className="text-brand-400">dev@</span>, or <span className="text-brand-400">user@gxq.studio</span> with any password
+        Demo: use <span className="text-brand-400">admin@gxq.studio</span>, <span className="text-brand-400">dev@gxq.studio</span>, or <span className="text-brand-400">user@gxq.studio</span> with any password
       </p>
     </form>
   )

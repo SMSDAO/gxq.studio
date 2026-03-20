@@ -19,6 +19,13 @@ export function WebhookManager() {
   const [webhooks, setWebhooks] = useState(MOCK_WEBHOOKS)
   const [addOpen, setAddOpen] = useState(false)
   const [newUrl, setNewUrl] = useState('')
+  const [selectedEvents, setSelectedEvents] = useState<string[]>(['swap.executed'])
+
+  const toggleEvent = (ev: string) => {
+    setSelectedEvents(prev =>
+      prev.includes(ev) ? prev.filter(e => e !== ev) : [...prev, ev]
+    )
+  }
 
   const toggleActive = (id: string) => {
     setWebhooks(prev => prev.map(w => w.id === id ? { ...w, is_active: !w.is_active } : w))
@@ -33,7 +40,7 @@ export function WebhookManager() {
     const wh: Webhook = {
       id: Date.now().toString(),
       url: newUrl,
-      events: ['swap.executed'],
+      events: selectedEvents.length > 0 ? selectedEvents : ['swap.executed'],
       is_active: true,
       success_count: 0,
       failure_count: 0,
@@ -41,6 +48,7 @@ export function WebhookManager() {
     }
     setWebhooks(prev => [...prev, wh])
     setNewUrl('')
+    setSelectedEvents(['swap.executed'])
     setAddOpen(false)
   }
 
@@ -96,7 +104,12 @@ export function WebhookManager() {
             <div className="space-y-1.5">
               {EVENTS.map(ev => (
                 <label key={ev} className="flex items-center gap-2 text-sm text-gray-400">
-                  <input type="checkbox" className="accent-brand-500" defaultChecked={ev === 'swap.executed'} />
+                  <input
+                    type="checkbox"
+                    className="accent-brand-500"
+                    checked={selectedEvents.includes(ev)}
+                    onChange={() => toggleEvent(ev)}
+                  />
                   {ev}
                 </label>
               ))}

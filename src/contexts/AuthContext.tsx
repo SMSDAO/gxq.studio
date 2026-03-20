@@ -59,6 +59,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, [])
 
   const signIn = async (email: string, _password: string) => {
+    // ⚠️  DEMO-ONLY: role is derived from the email prefix and persisted in
+    // localStorage. This is intentionally insecure for local development.
+    // A production deployment must validate roles server-side (e.g. Supabase
+    // auth + RLS) and must never trust client-supplied role values.
     const prefix = email.split('@')[0]
     const mockUser = MOCK_USERS[prefix] ?? MOCK_USERS.user
     const authed = { ...mockUser, email }
